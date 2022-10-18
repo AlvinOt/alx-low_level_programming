@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- *description - prints alphabet except e and q
- * return : Always 0
+ * description - prints alphabet except e and q
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,9 +13,9 @@ int main(void)
 	for (letter = 'a'; letter <= 'z' ; letter++)
 	{
 		if (letter != 'e' && letter != 'q')
-			put char (letter);
+			putchar (letter);
 	}
-	put char('\n');
+	putchar('\n');
 
 	return (0);
 }
