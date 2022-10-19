@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times-table - print 9x table, start at 0
+ * times_table - print 9x table, start at 0
  */
 
 void times_table(void)
@@ -15,7 +15,7 @@ void times_table(void)
 		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar(',');
-			_putvhar(' ');
+			_putchar(' ');
 
 			prod = num * mult;
 
