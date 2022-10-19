@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _abs - absolue integer value
- * @n: computed integer
- * Return: absolute integer value
+ * _abs - Computes absolute integer value
+ * @n: Integer to compute
+ * Return: Absolute integer value
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	if (n >= 0)
+	if (n >=  0)
 		return (n);
 	else
 		return (-n);
