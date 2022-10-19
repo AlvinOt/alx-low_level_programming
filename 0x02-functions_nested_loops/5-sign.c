@@ -3,10 +3,10 @@
 /**
  * print_sign - of a number
  * @n: printed number
- * Return: 1, 0, -1
+ * Return: 1 for +ve, 0 for 0, -1 for -ve
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
