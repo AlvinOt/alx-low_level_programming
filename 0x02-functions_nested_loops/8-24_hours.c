@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * jack bauer -  prints time of day
- * 		from 00:00 to 23:59
+ * jack_bauer -  prints minute of day
+ *		from 00:00 to 23:59
  */
 
 void jack_bauer(void)
