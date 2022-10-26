@@ -9,7 +9,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int index = 0;
+	int index = -1;
 
 	do {
 		index++;
