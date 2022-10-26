@@ -5,11 +5,12 @@
  * @str: the string whose length gets determined
  * Return: length of a @str
  */
-size_t _strlen(char *str)
-{
-	size_t length = 0;
 
-	while (*str[length])
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (*s[length])
 		length++;
 	return (length);
 }
