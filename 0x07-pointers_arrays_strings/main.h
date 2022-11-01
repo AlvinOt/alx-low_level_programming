@@ -1,6 +1,8 @@
 #ifndef MAINA_H
 #define MAINA_H
 
+
+#include <stdio.h>
 #include <stddef.h>
 
 char *_memset(char *s, char b, unsigned int n);
