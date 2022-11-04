@@ -26,9 +26,9 @@ int find_strlen(char *s)
 
 /**
  * check_palindrome - check if string is palindrome
- * @s: string checked
+ * @s: the string to check
  * @len: length of s
- * index: the index of string to check
+ * @index: the index of string to check
  * Return: for palindrome return 1, else 0
  */
 
