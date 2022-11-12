@@ -4,7 +4,7 @@
 /**
  * _realloc - reallocates memory block using mallloc and free
  * @ptr: pointer to previously allocated memory
- * @old_size: size of space allocated for ptr
+ * @old_size: size of space allocated for the ptr
  * @new_size: size of new memory block
  * Return: if new_size == oldsize, ptr
  *		if new_size == 0 && ptr not NULL, NULL
